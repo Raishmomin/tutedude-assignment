@@ -41,5 +41,13 @@ def index():
 def success():
     return 'Data submitted successfully'
 
+@app.route('/submittodoitem', methods=['POST'])
+def submit_todo_item():
+    data = request.form  # or use request.get_json() if sending JSON
+    item_name = data.get('itemName')
+    item_desc = data.get('itemDescription')
+    db.todos.insert_one({'itemName': item_name, 'itemDescription': item_desc})
+    return redirect('/success')  # or return JSON response
+
 if __name__ == '__main__':
     app.run(debug=True)
