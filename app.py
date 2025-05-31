@@ -41,5 +41,14 @@ def index():
 def success():
     return 'Data submitted successfully'
 
+@app.route('/submittodoitem', methods=['POST'])
+def submit_todo_item():
+    data = request.form  
+    item_name = data.get('itemName')
+    item_desc = data.get('itemDescription')
+    collection.insert_one({'itemName': item_name, 'itemDescription': item_desc})
+
+    return redirect('/success')  
+
 if __name__ == '__main__':
     app.run(debug=True)
