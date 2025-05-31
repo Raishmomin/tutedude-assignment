@@ -8,5 +8,10 @@
   {"id": 7, "item": "Strawberry"},
   {"id": 8, "item": "Watermelon"},
   {"id": 9, "item": "Grapes"},
-  {"id": 10, "item": "Blueberry"}
+  {"id": 10, "item": "Blueberry"},
+  {"id": 11, "item": "Kiwi"},
+  {"id": 12, "item": "Peach"},
+  {"id": 13, "item": "Plum"},
+  {"id": 14, "item": "Raspberry"},
+  {"id": 15, "item": "Blackberry"}
 ]
