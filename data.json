@@ -1,5 +1,12 @@
 [
   {"id": 1, "item": "Apple"},
   {"id": 2, "item": "Banana"},
-  {"id": 3, "item": "Cherry"}
+  {"id": 3, "item": "Cherry"},
+  {"id": 4, "item": "mango"},
+  {"id": 5, "item": "Orange"},
+  {"id": 6, "item": "Pineapple"},
+  {"id": 7, "item": "Strawberry"},
+  {"id": 8, "item": "Watermelon"},
+  {"id": 9, "item": "Grapes"},
+  {"id": 10, "item": "Blueberry"}
 ]
